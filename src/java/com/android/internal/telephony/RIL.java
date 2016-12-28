@@ -5487,7 +5487,6 @@ public class RIL extends BaseCommands implements CommandsInterface {
         send(rr);
     }
 
-    @Override
     public boolean needsOldRilFeature(String feature) {
         return mOldRilFeatures.contains(feature);
     }
